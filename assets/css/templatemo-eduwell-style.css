@@ -675,7 +675,9 @@ section.main-banner {
 }
 
 .main-banner {
-  padding-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-banner .right-image {
@@ -700,6 +702,9 @@ section.main-banner {
 }
 
 .main-banner .header-text::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   background-image: url(../images/banner-left-dec.png);
   width: 214px;
@@ -711,6 +716,9 @@ section.main-banner {
 }
 
 .main-banner .header-text h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 2;
   font-size: 17px;
@@ -720,14 +728,18 @@ section.main-banner {
 }
 
 .main-banner .header-text h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
   position: relative;
   z-index: 2;
   margin-top: 20px;
   font-size: 64px;
-  color: #111111;
+  color: #dc8cdb;
   font-weight: 900;
   line-height: 74px;
-  margin-bottom: 40px;
 }
 
 .main-banner .header-text h2 em {
@@ -736,6 +748,9 @@ section.main-banner {
 }
 
 .main-banner .main-button-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 2;
 }
@@ -1804,6 +1819,7 @@ body {
 @media (max-width: 992px) {
 
   .main-banner .header-text {
+    margin-top: 150px;
     text-align: center;
     margin-bottom: 60px;
   }
@@ -1906,4 +1922,8 @@ body {
   section.more-info .count-area-content .count-title {
     font-size: 22px;
   }
+}
+iframe .youtube {
+  width: 100vw;
+  height: 100vh;
 }
